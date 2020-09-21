@@ -14,9 +14,9 @@ import Container from "./Container"
 import Flex from "./Flex"
 import Heading from "./Heading"
 import Logo from "./Logo"
+import Nav from "./Nav"
 import StyledLink from "./StyledLink"
 import Text from "./Text"
-import Home from "./Home"
 
 import css from '@styled-system/css'
 import baseTheme from './theme'
@@ -95,7 +95,9 @@ const Layout = ({ children }) => {
                   justifyContent="space-between"
                   alignItems="center"
                 >
+                  <a href="/">
                   <Logo />
+                  </a>
                   <StyledLink
                     href="#/"
                     title="Change color mode"
@@ -113,7 +115,6 @@ const Layout = ({ children }) => {
                     </Flex>
                   </StyledLink>
                 </Flex>
-                <Home />
               </Container>
             </Box>
 

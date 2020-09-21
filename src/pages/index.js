@@ -9,9 +9,12 @@ import Box from "../components/Box"
 import Container from "../components/Container"
 import Flex from "../components/Flex"
 import Project from "../components/Project"
+import Intro from "../components/Intro"
+import Social from "../components/Social"
 
 // Assets
 import challenges from "../images/challenges.png"
+import prpl from "../images/prpl.png"
 import profile from "../images/profile.png"
 import trainerChat from "../images/trainerChat.png"
 import weeklyPlan from "../images/weeklyPlan.png"
@@ -25,6 +28,7 @@ const IndexPage = () => (
       title="odmln"
       keywords={[`odmln`, `Oliver`, `Dumoulin`, `Oliver Dumoulin`]}
     />
+    <Intro />
     <Box py={6}>
       <Container
         px={3}
@@ -36,31 +40,36 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Project
-            width="100%"
-            bgColor="gray"
-            textColor="text"
-            img={profile}
-          />
-          <Project
-            width={["100%", "calc( 50% - 6px )"]}
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
             bgColor="gray"
             textColor="text"
             img={weeklyPlan}
           />
           <Project
-            width={["100%", "calc( 50% - 6px )"]}
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
             bgColor="gray"
             textColor="text"
             img={workoutPlayer}
           />
           <Project
-            width={["100%", "calc( 50% - 6px )"]}
+            width={1}
+            frame={1}
+            bgColor="gray"
+            textColor="text"
+            img={profile}
+          />
+          <Project
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
             bgColor="gray"
             textColor="text"
             img={trainerChat}
           />
           <Project
-            width={["100%", "calc( 50% - 6px )"]}
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
             bgColor="gray"
             textColor="text"
             img={challenges}
@@ -68,6 +77,7 @@ const IndexPage = () => (
         </Flex>
       </Container>
     </Box>
+    <Social />
   </Layout>
 )
 
