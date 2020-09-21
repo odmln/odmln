@@ -14,7 +14,6 @@ import Social from "../components/Social"
 
 // Assets
 import challenges from "../images/challenges.png"
-import prpl from "../images/prpl.png"
 import profile from "../images/profile.png"
 import trainerChat from "../images/trainerChat.png"
 import weeklyPlan from "../images/weeklyPlan.png"
