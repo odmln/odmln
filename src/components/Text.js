@@ -17,6 +17,7 @@ const Text = styled(Box)`
   ${fontWeight}
   ${lineHeight}
   ${letterSpacing};
+  display: block;
 `
 
 Text.defaultProps = {

@@ -6,6 +6,7 @@ import Img from "gatsby-image"
 const Avatar = styled(Img)`
   height: 96px;
   width: 96px;
+  margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 32px;
   background-color: ${props => props.theme.colors.gray};
