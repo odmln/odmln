@@ -12,10 +12,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-127725448-1`,
+        head: false,
+        anonymize: true,
+      },
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-127725448-1",
-        head: true,
+        head: false,
         anonymize: true,
       },
       resolve: `gatsby-plugin-manifest`,
