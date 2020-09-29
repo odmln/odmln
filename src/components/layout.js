@@ -14,7 +14,6 @@ import Container from "./Container"
 import Flex from "./Flex"
 import Heading from "./Heading"
 import Logo from "./Logo"
-import Nav from "./Nav"
 import StyledLink from "./StyledLink"
 import Text from "./Text"
 

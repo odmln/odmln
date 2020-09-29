@@ -2,12 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import Box from './Box'
-import Flex from './Flex'
 import Text from './Text'
-
-const ProjectWrapper = styled(Box)`
-  
-`
 
 const Project = props =>
 
@@ -20,7 +15,7 @@ const Project = props =>
     overflow: "hidden"
   }}
 >
-  <ProjectWrapper
+  <Box
     bg={props.bgColor}
     width={props.width}
     height={["400px", "600px"]}
@@ -29,7 +24,7 @@ const Project = props =>
     style={{
       backgroundImage: `url(${props.img})`
     }}
-  ></ProjectWrapper>
+  ></Box>
 </Box>
 
 export default Project
