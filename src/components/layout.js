@@ -14,6 +14,7 @@ import Container from "./Container"
 import Flex from "./Flex"
 import Heading from "./Heading"
 import Logo from "./Logo"
+import Nav from "./Nav"
 import StyledLink from "./StyledLink"
 import Text from "./Text"
 
@@ -97,22 +98,25 @@ const Layout = ({ children }) => {
                   <a href="/">
                   <Logo />
                   </a>
-                  <StyledLink
-                    href="#/"
-                    title="Change color mode"
-                    rel="noopener noreferrer"
-                  >
-                    <Flex
-                      ml={[0, 4]}
-                      height="32px"
-                      width="32px"
-                      alignItems="center"
-                      justifyContent="center"
-                      onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+                  <Flex>
+                    <Nav />
+                    <StyledLink
+                      href="#/"
+                      title="Change color mode"
+                      rel="noopener noreferrer"
                     >
-                      <Sun />
-                    </Flex>
-                  </StyledLink>
+                      <Flex
+                        ml={[2, 3]}
+                        height="32px"
+                        width="32px"
+                        alignItems="center"
+                        justifyContent="center"
+                        onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+                      >
+                        <Sun />
+                      </Flex>
+                    </StyledLink>
+                  </Flex>
                 </Flex>
               </Container>
             </Box>

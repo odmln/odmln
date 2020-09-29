@@ -1,19 +1,84 @@
 import React from 'react'
 
-import Box from "./Box"
+import {
+  FaTwitter,
+  FaDribbble,
+  FaGithub
+} from 'react-icons/fa'
+
+import Flex from "./Flex"
 import StyledLink from "./StyledLink"
-import Text from "./Text"
 
 const Nav = props =>
 
-<Box>
-  <Text
-    ml={[0, 4]}
-    mr={[3, 0]}
-    fontSize={2}
+<Flex>
+
+  <StyledLink
+    href="https://twitter.com/odmln"
+    target="_blank"
+    title="Twitter"
+    rel="noopener noreferrer"
   >
-    <StyledLink href="/cv" title="CV" rel="noopener noreferrer">CV</StyledLink>
-  </Text>
-</Box>
+    <Flex
+      ml={[2, 3]}
+      height="32px"
+      width="32px"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <FaTwitter
+        style={{
+          width: "24px",
+          height: "24px"
+        }}
+      />
+    </Flex>
+  </StyledLink>
+
+  <StyledLink
+    href="https://dribbble.com/odmln"
+    target="_blank"
+    title="Dribbble"
+    rel="noopener noreferrer"
+  >
+    <Flex
+      ml={[2, 3]}
+      height="32px"
+      width="32px"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <FaDribbble
+        style={{
+          width: "24px",
+          height: "24px"
+        }}
+      />
+    </Flex>
+  </StyledLink>
+
+  <StyledLink
+    href="https://github.com/odmln"
+    target="_blank"
+    title="Github"
+    rel="noopener noreferrer"
+  >
+    <Flex
+      ml={[2, 3]}
+      height="32px"
+      width="32px"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <FaGithub
+        style={{
+          width: "24px",
+          height: "24px"
+        }}
+      />
+    </Flex>
+  </StyledLink>
+
+</Flex>
 
 export default Nav

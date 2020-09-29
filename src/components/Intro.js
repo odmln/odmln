@@ -8,7 +8,7 @@ import Text from "./Text"
 import StyledLink from "./StyledLink"
 
 
-const Home = props =>
+const Intro = props =>
 
 <Box py={6}>
   <Container
@@ -28,9 +28,9 @@ const Home = props =>
       mb={4}
       mx="auto"
       fontSize={2}
-      maxWidth={["100%", "600px"]}
+      maxWidth={["100%", "768px"]}
     >
-      Product designer <StyledLink href="https://twitter.com/stash" title="@stash" target="_blank" rel="noopener noreferrer">@stash</StyledLink>. Previously worked on design systems at <StyledLink href="https://twitter.com/aaptiv" title="@aaptiv" target="_blank" rel="noopener noreferrer">@aaptiv</StyledLink> & <StyledLink href="https://twitter.com/priceline" title="@priceline" target="_blank" rel="noopener noreferrer">@priceline</StyledLink>.
+      I'm currently working as a product designer <StyledLink href="https://twitter.com/stash" title="@stash" target="_blank" rel="noopener noreferrer">@Stash</StyledLink> leading the design systems team and contributing to the banking product.
     </Text>
     <Text
       mb={4}
@@ -43,4 +43,4 @@ const Home = props =>
   </Container>
 </Box>
 
-export default Home
+export default Intro
