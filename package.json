@@ -1,7 +1,7 @@
 {
-  "name": "odmln",
+  "name": "odmln | Oliver Dumoulin",
   "private": true,
-  "description": "A product designer and front-end developer currently working on design systems at Aaptiv in NYC",
+  "description": "Product designer at Stash.",
   "version": "0.1.0",
   "author": "Oliver Dumoulin <hi@odmln.com>",
   "dependencies": {
