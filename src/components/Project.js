@@ -1,8 +1,6 @@
 import React from 'react'
-import styled from '@emotion/styled'
 
 import Box from './Box'
-import Text from './Text'
 
 const Project = props =>
 
