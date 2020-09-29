@@ -96,7 +96,7 @@ const Layout = ({ children }) => {
                   alignItems="center"
                 >
                   <a href="/">
-                  <Logo />
+                    <Logo />
                   </a>
                   <Flex>
                     <Nav />

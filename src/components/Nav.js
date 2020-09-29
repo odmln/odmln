@@ -14,28 +14,6 @@ const Nav = props =>
 <Flex>
 
   <StyledLink
-    href="https://twitter.com/odmln"
-    target="_blank"
-    title="Twitter"
-    rel="noopener noreferrer"
-  >
-    <Flex
-      ml={[2, 3]}
-      height="32px"
-      width="32px"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <FaTwitter
-        style={{
-          width: "24px",
-          height: "24px"
-        }}
-      />
-    </Flex>
-  </StyledLink>
-
-  <StyledLink
     href="https://dribbble.com/odmln"
     target="_blank"
     title="Dribbble"
