@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
   siteMetadata: {
     title: `Oliver Dumoulin`,
@@ -12,9 +8,6 @@ module.exports = {
     twitterUsername: "@odmln",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -37,6 +30,9 @@ module.exports = {
         name: `static`,
         path: `${__dirname}/src/images/`,
       },
+      `gatsby-plugin-react-helmet`,
+      `gatsby-transformer-sharp`,
+      `gatsby-plugin-sharp`,
     },
   ],
 }
