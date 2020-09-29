@@ -15,6 +15,11 @@ module.exports = {
         head: true,
         anonymize: true,
       },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -25,14 +30,13 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
       },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `static`,
         path: `${__dirname}/src/images/`,
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
   ],
 }
