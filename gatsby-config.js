@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Oliver Dumoulin`,
-    description: `Product designer working on design systems at Stash.`,
+    description: `Product designer at Stash.`,
     author: `@odmln`,
     url: "https://www.odmln.com",
     image: "/src/images/profile.jpg",
@@ -18,7 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.UA-127725448-1,
+        trackingId: "UA-127725448-1",
+        head: true,
+        anonymize: true,
       },
       resolve: `gatsby-plugin-manifest`,
       options: {
