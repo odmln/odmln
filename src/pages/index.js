@@ -10,7 +10,7 @@ import Container from "../components/Container"
 import Flex from "../components/Flex"
 import Project from "../components/Project"
 import Intro from "../components/Intro"
-import Social from "../components/Social"
+import Resume from "../components/Resume"
 
 // Assets
 import challenges from "../images/challenges.png"
@@ -76,7 +76,7 @@ const IndexPage = () => (
         </Flex>
       </Container>
     </Box>
-    <Social />
+    <Resume />
   </Layout>
 )
 
