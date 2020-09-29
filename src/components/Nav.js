@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {
-  FaTwitter,
   FaDribbble,
   FaGithub
 } from 'react-icons/fa'
