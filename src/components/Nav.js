@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-  FaDribbble,
+  FaTwitter,
   FaGithub
 } from 'react-icons/fa'
 
@@ -13,9 +13,9 @@ const Nav = props =>
 <Flex>
 
   <StyledLink
-    href="https://dribbble.com/odmln"
+    href="https://twitter.com/odmln"
     target="_blank"
-    title="Dribbble"
+    title="Twitter"
     rel="noopener noreferrer"
   >
     <Flex
@@ -25,7 +25,7 @@ const Nav = props =>
       alignItems="center"
       justifyContent="center"
     >
-      <FaDribbble
+      <FaTwitter
         style={{
           width: "24px",
           height: "24px"
