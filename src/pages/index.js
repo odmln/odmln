@@ -14,6 +14,7 @@ import Resume from "../components/Resume"
 
 // Assets
 import challenges from "../images/challenges.png"
+import cardActivation from "../images/cardActivation.png"
 import profile from "../images/profile.png"
 import trainerChat from "../images/trainerChat.png"
 import weeklyPlan from "../images/weeklyPlan.png"
@@ -38,6 +39,13 @@ const IndexPage = () => (
           flexDirection="row"
           justifyContent="space-between"
         >
+          <Project
+            width={1}
+            frame={1}
+            bgColor="gray"
+            textColor="text"
+            img={cardActivation}
+          />
           <Project
             width={1}
             frame={["100%", "calc(50% - 8px)"]}
