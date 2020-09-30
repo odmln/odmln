@@ -14,7 +14,9 @@ import Resume from "../components/Resume"
 
 // Assets
 import challenges from "../images/challenges.png"
+import runway from "../images/runway.png"
 import cardActivation from "../images/cardActivation.png"
+import backupInvestment from "../images/backupInvestment.png"
 import profile from "../images/profile.png"
 import trainerChat from "../images/trainerChat.png"
 import weeklyPlan from "../images/weeklyPlan.png"
@@ -41,10 +43,24 @@ const IndexPage = () => (
         >
           <Project
             width={1}
-            frame={1}
+            frame={["100%", "calc(50% - 8px)"]}
+            bgColor="gray"
+            textColor="text"
+            img={backupInvestment}
+          />
+          <Project
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
             bgColor="gray"
             textColor="text"
             img={cardActivation}
+          />
+          <Project
+            width={1}
+            frame={1}
+            bgColor="gray"
+            textColor="text"
+            img={runway}
           />
           <Project
             width={1}
