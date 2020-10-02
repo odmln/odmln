@@ -25,28 +25,22 @@ const Resume = props =>
       flexDirection="column"
     >
       <Job
-        position="Product Designer"
+        position="Product Designer, Design Systems"
         link="https://twitter.com/stash"
         company="Stash"
         dates="Feb 2020 – Present"
       />
       <Job
-        position="Product Designer"
+        position="Product Designer, Design Systems"
         link="https://twitter.com/aaptiv"
         company="Aaptiv"
         dates="Jun 2018 – Feb 2020"
       />
       <Job
-        position="Visual Designer"
+        position="Visual Designer, Design Systems"
         link="https://twitter.com/priceline"
         company="Priceline"
         dates="Jun 2017 – Jun 2018"
-      />
-      <Job
-        position="UI/UX Intern"
-        link="https://twitter.com/priceline"
-        company="Priceline"
-        dates="Jun 2016 – Sep 2016"
       />
     </Flex>
 
