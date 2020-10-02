@@ -30,7 +30,7 @@ const Intro = props =>
       fontSize={2}
       maxWidth={["100%", "768px"]}
     >
-      I'm a product designer <StyledLink href="https://apps.apple.com/us/app/stash-banking-investing-app/id1017148055" title="Stash" target="_blank" rel="noopener noreferrer">@Stash</StyledLink> working on design systems.
+      I'm a product designer <StyledLink href="https://www.stash.com" title="stash.com" target="_blank" rel="noopener noreferrer">@Stash</StyledLink> working on design systems.
     </Text>
     <Text
       mb={4}
