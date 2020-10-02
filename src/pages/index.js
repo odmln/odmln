@@ -43,6 +43,7 @@ const IndexPage = () => (
           flexDirection="row"
           justifyContent="space-between"
         >
+
           <Project
             width={1}
             frame={1}
@@ -106,6 +107,7 @@ const IndexPage = () => (
             textColor="text"
             img={challenges}
           />
+          
         </Flex>
       </Container>
     </Box>
