@@ -43,14 +43,7 @@ const IndexPage = () => (
         >
           <Project
             width={1}
-            frame={["100%", "calc(50% - 8px)"]}
-            bgColor="gray"
-            textColor="text"
-            img={backupInvestment}
-          />
-          <Project
-            width={1}
-            frame={["100%", "calc(50% - 8px)"]}
+            frame={1}
             bgColor="gray"
             textColor="text"
             img={cardActivation}
