@@ -23,6 +23,8 @@ import profile from "../images/profile.png"
 import trainerChat from "../images/trainerChat.png"
 import weeklyPlan from "../images/weeklyPlan.png"
 import workoutPlayer from "../images/workoutPlayer.png"
+import pricelineDocs from "../images/pricelineDocs.png"
+import pricelineNav from "../images/pricelineNav.png"
 
 // Page Content
 const IndexPage = () => (
@@ -107,7 +109,21 @@ const IndexPage = () => (
             textColor="text"
             img={challenges}
           />
-          
+          <Project
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
+            bgColor="gray"
+            textColor="text"
+            img={pricelineDocs}
+          />
+          <Project
+            width={1}
+            frame={["100%", "calc(50% - 8px)"]}
+            bgColor="gray"
+            textColor="text"
+            img={pricelineNav}
+          />
+
         </Flex>
       </Container>
     </Box>
