@@ -135,7 +135,7 @@ const IndexPage = () => (
         textAlign={["left", "center"]}
       >
         <Text fontSize={2}>
-          Please reach out if you'd like to see case studies.
+          Please reach out to me if you'd like to see any case studies.
         </Text>
       </Container>
     </Box>
