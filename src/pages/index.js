@@ -10,7 +10,6 @@ import Container from "../components/Container"
 import Flex from "../components/Flex"
 import Project from "../components/Project"
 import Intro from "../components/Intro"
-import Text from "../components/Text"
 import Resume from "../components/Resume"
 
 // Assets
@@ -125,18 +124,6 @@ const IndexPage = () => (
           />
 
         </Flex>
-      </Container>
-    </Box>
-
-    <Box pt={0} pb={6}>
-      <Container
-        px={[5, 6]}
-        maxWidth="1600px"
-        textAlign={["left", "center"]}
-      >
-        <Text fontSize={2}>
-          Please reach out to me if you'd like to see any case studies.
-        </Text>
       </Container>
     </Box>
 
