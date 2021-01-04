@@ -26,19 +26,25 @@ const Resume = props =>
     >
       <Job
         position="Product Designer"
-        link="https://twitter.com/stash"
-        company="Stash"
-        dates="Feb 2020 – Present"
+        link="https://www.onepeloton.com"
+        company="Peloton"
+        dates="Jan 2021 – Present"
       />
       <Job
         position="Product Designer"
-        link="https://twitter.com/aaptiv"
+        link="https://www.stash.com"
+        company="Stash"
+        dates="Feb 2020 – Jan 2021"
+      />
+      <Job
+        position="Product Designer"
+        link="https://aaptiv.com"
         company="Aaptiv"
         dates="Jun 2018 – Feb 2020"
       />
       <Job
         position="Visual Designer"
-        link="https://twitter.com/priceline"
+        link="https://priceline.com"
         company="Priceline"
         dates="Jun 2017 – Jun 2018"
       />

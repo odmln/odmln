@@ -10,13 +10,12 @@ import StyledLink from "./StyledLink"
 
 const Intro = props =>
 
-<Box py={6}>
+<Box py={8}>
   <Container
     px={[5, 6]}
     maxWidth="1600px"
     textAlign="center"
   >
-    <Memoji />
     <Heading
       as="h1"
       mb={4}
@@ -30,7 +29,7 @@ const Intro = props =>
       fontSize={2}
       maxWidth={["100%", "768px"]}
     >
-      I'm a product designer <StyledLink href="https://www.stash.com" title="stash.com" target="_blank" rel="noopener noreferrer">@Stash</StyledLink> working on design systems. I previously led design systems efforts at <StyledLink href="https://www.aaptiv.com" title="aaptiv.com" target="_blank" rel="noopener noreferrer">@Aaptiv</StyledLink> and <StyledLink href="https://www.priceline.com" title="priceline.com" target="_blank" rel="noopener noreferrer">@Priceline</StyledLink>.
+      I'm a senior product designer <StyledLink href="https://www.onepeloton.com" title="onepeloton.com" target="_blank" rel="noopener noreferrer">@Peloton</StyledLink>. I previously led design systems efforts at <StyledLink href="https://www.stash.com" title="stash.com" target="_blank" rel="noopener noreferrer">@Stash</StyledLink>, <StyledLink href="https://www.aaptiv.com" title="aaptiv.com" target="_blank" rel="noopener noreferrer">@Aaptiv</StyledLink> and <StyledLink href="https://www.priceline.com" title="priceline.com" target="_blank" rel="noopener noreferrer">@Priceline</StyledLink>.
     </Text>
     <Text
       mb={4}
