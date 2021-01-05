@@ -29,7 +29,7 @@ const Intro = props =>
       fontSize={2}
       maxWidth={["100%", "768px"]}
     >
-      I'm a senior product designer <StyledLink href="https://www.onepeloton.com" title="onepeloton.com" target="_blank" rel="noopener noreferrer">@Peloton</StyledLink>. I previously led design systems efforts at <StyledLink href="https://www.stash.com" title="stash.com" target="_blank" rel="noopener noreferrer">@Stash</StyledLink>, <StyledLink href="https://www.aaptiv.com" title="aaptiv.com" target="_blank" rel="noopener noreferrer">@Aaptiv</StyledLink> and <StyledLink href="https://www.priceline.com" title="priceline.com" target="_blank" rel="noopener noreferrer">@Priceline</StyledLink>.
+      I'm a Senior UI Designer <StyledLink href="https://www.onepeloton.com" title="onepeloton.com" target="_blank" rel="noopener noreferrer">@Peloton</StyledLink>. I previously led design systems efforts at <StyledLink href="https://www.stash.com" title="stash.com" target="_blank" rel="noopener noreferrer">@Stash</StyledLink>, <StyledLink href="https://www.aaptiv.com" title="aaptiv.com" target="_blank" rel="noopener noreferrer">@Aaptiv</StyledLink> and <StyledLink href="https://www.priceline.com" title="priceline.com" target="_blank" rel="noopener noreferrer">@Priceline</StyledLink>.
     </Text>
     <Text
       mb={4}
